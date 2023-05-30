@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Hotel Sarina</title>
+    <title>The Royal Marin</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -83,7 +83,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
-                                <h3>Hotel Sarina</h3>
+                                <h3>The Royal Marin</h3>
                                 <p>Nikmati pemandangan Pantai</p>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                     <div class="about_info">
                         <div class="section_title mb-20px">
                             <span>About Us</span>
-                            <h3>Hotel Sarina </h3>
+                            <h3>The Royal Marin </h3>
                         </div>
                         <p>Lepaskan diri anda ke Hotel Hebat, dikelilingi oleh keindahan pegunungan yang indah dan pantai yang cantik. Nikmati sore yang hangat dan berenang di kolam renang dengan pemandangan matahari terbenam yang memukau.
                         Kids Club yang luas menawarkan beragam fasilitas dan kegiatan anak-anak yang akan melengkapi kenyamanan keluarga. Convention Center kami, dilengkapi pelayanan lengkap dan ruang konvensi terbesar di Lampung, mampu mengakomodasi hingga 3.000 delegasi.
@@ -147,7 +147,7 @@
                     <div class="col-xl-8 col-md-7 col-lg-9">
                         <p class="copy_right">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Gelen </i>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Gelen Betanio Hernandi </i>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
@@ -159,7 +159,55 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Gelen
 
     <!-- link that opens popup -->
 
-    
+    <!-- form itself end-->
+        <form id="test-form" class="white-popup-block mfp-hide" action="simpan.php" method = "post" >
+                <div class="popup_box ">
+                        <div class="popup_inner">
+                            <h3>Pesan Kamar</h3>
+                            
+                            <form >
+                                <div class="row">
+                                    <div class="input-group mb-3">
+                                        <input class = "form-control" type="text" name="nama_pemesan" placeholder="Nama Pemesan">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <input class = "form-control" type="email" name="email" placeholder="email">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <input class = "form-control" type="phone_num" name="no_hp" placeholder="Nomor Handphone">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <input class = "form-control" type="text" name="nama_tamu" placeholder="Nama Tamu">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input id="datepicker" name ="cekin"placeholder="Check in date">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input id="datepicker2" name = "cekout"placeholder="Check out date">
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <input class = "form-control" type="number" name="jumlah" placeholder="Jumlah Kamar">
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <select class="form-select wide" name="room_tipe" id="default-select" class="">
+                                            <option data-display="Room type">Room type</option>
+                                            <option value="1">Laxaries Room</option>
+                                            <option value="2">Deluxe Room</option>
+                                            <option value="3">Supperior Room</option>
+                                            <option value="4">Family Room</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <button type="submit" value="simpan" class="boxed-btn3">PESAN KAMAR</button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+            </form>
+    <!-- form itself end -->
+
     <!-- JS here -->
     <script src="template1/js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="template1/js/vendor/jquery-1.12.4.min.js"></script>
